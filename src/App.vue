@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Banner/>
+    <Banner />
     <ul class="wrapper">
       <li
         class="item"
@@ -20,43 +20,43 @@
 </template>
 
 <script>
-  import 'normalize.css'
-  import Banner from './components/Banner'
+import "normalize.css";
+import Banner from "./components/Banner";
 
-  export default {
-    name: "App",
-    components: {
-      Banner
-    },
-    data () {
-      return {
-        iconNames: this.ICON_NAMES
+export default {
+  name: "App",
+  components: {
+    Banner
+  },
+  data() {
+    return {
+      iconNames: this.ICON_NAMES
+    };
+  },
+  methods: {
+    copyName(name) {
+      const input = document.createElement("input");
+      input.setAttribute("readonly", "readonly");
+      input.setAttribute("value", name);
+      document.body.appendChild(input);
+      input.setSelectionRange(0, 9999);
+      input.select();
+      if (document.execCommand("copy")) {
+        document.execCommand("copy");
       }
-    },
-    methods: {
-      copyName(name) {
-        const input = document.createElement('input')
-        input.setAttribute('readonly', 'readonly')
-        input.setAttribute('value', name)
-        document.body.appendChild(input)
-        input.setSelectionRange(0, 9999)
-        input.select()
-        if (document.execCommand('copy')) {
-          document.execCommand('copy')
-        }
-        document.body.removeChild(input)
-        this.$message.success('复制成功')
-      }
+      document.body.removeChild(input);
+      this.$message.success("复制成功");
     }
-  };
+  }
+};
 </script>
 
 <style lang="css">
-  *{
+  * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
   }
-  body{
+  body {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
   }
@@ -87,10 +87,10 @@
     color: #486491;
     transition: background-color 0.2s;
   }
-  .item:hover{
+  .item:hover {
     background-color: #e7ecf3;
   }
-  .item svg{
+  .item svg {
     margin-bottom: 12px;
   }
 </style>

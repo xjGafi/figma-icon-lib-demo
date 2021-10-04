@@ -4,37 +4,37 @@
     <div class="code">
       <div>
         <h3>Installation</h3>
-        <pre><code>npm install juuust-vue-icon --save<br/>yarn add juuust-vue-icon</code></pre>
+        <pre><code>npm install figma-ci-icon-demo --save<br/>yarn add figma-ci-icon-demo</code></pre>
       </div>
       <div>
         <h3>Usage</h3>
-        <pre><code>import { IconHome } from 'juuust-vue-icon'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
+        <pre><code>import { IconHome } from 'figma-ci-icon-demo'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: "Banner"
-  };
+export default {
+  name: "Banner"
+};
 </script>
 
 <style lang="css">
-  .banner{
+  .banner {
     padding-top: 30px;
     text-align: center;
   }
-  .code{
+  .code {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 720px;
   }
-  .code div{
+  .code div {
     width: 48%;
   }
-  pre{
+  pre {
     width: 100%;
     padding: 20px;
     border-radius: 6px;
@@ -42,7 +42,7 @@
     background-color: #e7ecf3;
     overflow: auto;
   }
-  h3{
+  h3 {
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
