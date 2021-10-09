@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="banner">Juuust Vue Icon</h1>
+    <h1 class="banner">Figma Icon Lib</h1>
     <div class="code">
       <div>
         <h3>Installation</h3>
