@@ -1,4 +1,4 @@
-# figma-ci-icon-demo
+# figma-icon-lib-demo
 
 ## Project setup
 

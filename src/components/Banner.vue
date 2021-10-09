@@ -4,11 +4,11 @@
     <div class="code">
       <div>
         <h3>Installation</h3>
-        <pre><code>npm install figma-ci-icon-demo --save<br/>yarn add figma-ci-icon-demo</code></pre>
+        <pre><code>npm install figma-icon-lib-demo --save<br/>yarn add figma-icon-lib-demo</code></pre>
       </div>
       <div>
         <h3>Usage</h3>
-        <pre><code>import { IconHome } from 'figma-ci-icon-demo'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
+        <pre><code>import { IconHome } from 'figma-icon-lib-demo'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
       </div>
     </div>
   </div>

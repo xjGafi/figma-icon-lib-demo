@@ -45,5 +45,5 @@ jobs:
           msgtype: text
           content: |
             兄弟们，咱们的图标更新啦！
-            请使用 yarn upgrade figma-ci-icon-demo --latest 更新。
-            在线查看图标：https://github.com/xjGafi/figma-ci-icon-demo
+            请使用 yarn upgrade figma-icon-lib-demo --latest 更新。
+            在线查看图标：https://github.com/xjGafi/figma-icon-lib-demo
