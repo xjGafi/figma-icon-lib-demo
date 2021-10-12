@@ -1,6 +1,6 @@
 {
   "name": "figma-icon-lib-demo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "figma ci icon demo, Automation workflow with Figma",
   "author": "vincent.xj@outlook.com",
   "main": "bundle/index.common.js",
